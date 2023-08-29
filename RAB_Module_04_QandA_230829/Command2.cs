@@ -24,9 +24,6 @@ namespace RAB_Module_04_QandA_230829
             // this is a variable for the current Revit model
             Document doc = uiapp.ActiveUIDocument.Document;
 
-            // Your code goes here
-
-
             return Result.Succeeded;
         }
         internal static PushButtonData GetButtonData()
